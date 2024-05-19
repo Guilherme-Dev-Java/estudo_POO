@@ -13,8 +13,16 @@ def proximo(numero)
     puts "#{sucessor}"
 end
 
+
+def coringa(*paramentros)
+    nome = paramentros
+    p nome
+end
+
 teste
 teste2(14, 8)
+
+coringa("a","b", 1, 2, 3 , 7, 8, "c", "d")
 
 puts "Digite um numero: "
 numero = gets.to_i
